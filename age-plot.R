@@ -27,7 +27,7 @@ ggplot(data = WSL.Squads...Chelsea, aes(x = Age, y = Minutes.played)) +
     legend.position = "none",
     panel.background = element_blank(),
     panel.grid.minor = element_blank(), #removes grid lines
-    panel.grid.major = element_blank(),
+    panel.grid.major = element_line(colour= "light grey", size = 0.1),
     plot.background = element_blank(),
     plot.margin = unit(c(2, 2, 2, 2), "cm") #sets axis further in
   ) +
