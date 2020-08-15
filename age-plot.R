@@ -19,7 +19,8 @@ create_AgePlot <- function(club_name, club_colour, club_shade) {
     panel.grid.major = element_line(colour= "light grey", size = 0.1),
     plot.background = element_blank(),
     plot.margin = unit(c(2, 1, 1, 1), "cm"), #sets axis further in
-    plot.title = element_text(family = "merriweather")
+    plot.title = element_text(family = "merriweather", vjust = 1),
+    plot.subtitle = element_text(family = "merriweather", hjust = 0.55, size = 9, face = "bold")
   )
   }
   
