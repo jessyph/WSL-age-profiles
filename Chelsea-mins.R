@@ -43,6 +43,9 @@ ggplot(data = Chelsea, aes(x = Age, y = Minutes.played)) +
             fill = club_shade, alpha = 0.03) +
   labs(title = paste0(club_name, " squad age make-up"),
        subtitle = "Peak years",
-       caption = "Jessy Parker Humphreys | @jessyjph") 
+       caption = "Jessy Parker Humphreys | @jessyjph") +
+  annotate("text", x = 16, y = 1250, label = paste0("Average age: ", round(mean(Chelsea$Age), 0)),
+            size = 4, family = "open-sans", fontface = "plain",
+            hjust = 0, vjust = 0.5)
 
             
