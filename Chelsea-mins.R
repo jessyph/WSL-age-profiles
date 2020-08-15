@@ -1,6 +1,7 @@
 require(ggplot2)
 require(ggrepel)
 require(showtext)
+require(dplyr)
 
 font_add_google(name = "Merriweather", family = "merriweather")
 font_add_google(name = "Open Sans", family = "open-sans")
@@ -21,8 +22,14 @@ club_name = "Chelsea"
 ggplot(data = Chelsea, aes(x = Age, y = Minutes.played)) + 
   xlim(c(xmin, xmax)) + ylim(c(ymin, ymax)) +
   geom_point(colour = club_colour) +
-  geom_text_repel(aes(label = Player),
+  geom_text_repel(data = Chelsea %>%
+                    filter(new.player=="0"),
+                  aes(label = Player),
                   size = 3, family = "open-sans") +
+  geom_text_repel(data = Chelsea %>%
+                    filter(new.player=="1"),
+                  aes(label = Player),
+                  size = 3, family = "open-sans", fontface = "bold") +
   theme_AgePlot() +
   scale_y_continuous(name = "Minute's played (19/20 season)",
                      limits = c(ymin, ymax),
