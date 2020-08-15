@@ -6,6 +6,9 @@ font_add_google(name = "Merriweather", family = "merriweather")
 font_add_google(name = "Open Sans", family = "open-sans")
 showtext_auto()
 
+Chelsea$new.player <- c("0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "1", "1", "1", "1")
+Chelsea[23, 5] = "0"
+
 ymin <- -50 #fewest number of minutes
 ymax <- 1400 #max number of minutes
 xmin <- 16 #lowest player age
