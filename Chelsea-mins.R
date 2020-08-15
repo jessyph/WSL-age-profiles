@@ -25,11 +25,13 @@ ggplot(data = Chelsea, aes(x = Age, y = Minutes.played)) +
   geom_text_repel(data = Chelsea %>%
                     filter(new.player=="0"),
                   aes(label = Player),
-                  size = 3, family = "open-sans") +
+                  size = 3, family = "open-sans",
+                  point.padding = 0.2) +
   geom_text_repel(data = Chelsea %>%
                     filter(new.player=="1"),
                   aes(label = Player),
-                  size = 3, family = "open-sans", fontface = "bold") +
+                  size = 3, family = "open-sans", fontface = "bold",
+                  point.padding = 0.2) +
   theme_AgePlot() +
   scale_y_continuous(name = "Minute's played (19/20 season)",
                      limits = c(ymin, ymax),
@@ -40,7 +42,7 @@ ggplot(data = Chelsea, aes(x = Age, y = Minutes.played)) +
   geom_rect(aes(xmin = 25, xmax = 29, ymin = ymin, ymax = ymax),
             fill = club_shade, alpha = 0.03) +
   labs(title = paste0(club_name, " squad age make-up"),
-       subtitle = "Peak years") 
-  # geom_text(aes(x = 25, y = ymax), label = "Peak years", size = 3, hjust = 0.5, fontface = "bold")
+       subtitle = "Peak years",
+       caption = "Jessy Parker Humphreys | @jessyjph") 
 
             
