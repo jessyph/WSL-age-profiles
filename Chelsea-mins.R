@@ -13,7 +13,7 @@ xmin <- 15 #lowest player age
 xmax <- 35 #highest player age
 
 club_colour = "#0E44D3"
-club_shade = "#0EFAF7"
+club_shade = "#FADA0E"
 club_name = "Chelsea"
 
 chelsea <- Minutes.played.1920 %>% filter(team.id=="6")
@@ -33,16 +33,16 @@ ggplot(data = chelsea, aes(x = age, y = mp.percentage)) +
                   size = 3, family = "open-sans", fontface = "bold",
                   point.padding = 0.2) +
   theme_AgePlot() +
-  scale_y_continuous(name = "% Minutes played (19/20 season)",
+  scale_y_continuous(name = "% minutes played (19/20 season)",
                      limits = c(ymin, ymax),
                      expand = c(0,0),
-                     breaks = seq(0, 100, 10)) +
+                     breaks = seq(0, 100, 20)) +
   scale_x_continuous(limits = c(xmin, xmax),
                      breaks = seq(xmin, xmax, 2)) +
   geom_rect(aes(xmin = 25, xmax = 29, ymin = ymin, ymax = ymax),
             fill = club_shade, alpha = 0.01) +
   labs(title = paste0(club_name, " squad profile 2020/21 season"),
-       # subtitle = paste0("Average age: ", round(mean(Chelsea$Age), 0)),
+       subtitle = paste0("Average age: ", round(mean(chelsea$age), 0)),
        caption = c("New signings in bold \n Peak years shaded",
        "Jessy Parker Humphreys | @jessyjph \n Source: FBRef"))
 
