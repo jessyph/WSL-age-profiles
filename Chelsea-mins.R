@@ -2,6 +2,8 @@ require(ggplot2)
 require(ggrepel)
 require(showtext)
 require(dplyr)
+require(ggforce)
+require(concaveman)
 
 font_add_google(name = "Merriweather", family = "merriweather")
 font_add_google(name = "Open Sans", family = "open-sans")
@@ -33,19 +35,17 @@ ggplot(data = Chelsea, aes(x = Age, y = Minutes.played)) +
                   size = 3, family = "open-sans", fontface = "bold",
                   point.padding = 0.2) +
   theme_AgePlot() +
-  scale_y_continuous(name = "Minute's played (19/20 season)",
+  scale_y_continuous(name = "Minutes played (19/20 season)",
                      limits = c(ymin, ymax),
                      expand = c(0,0),
                      breaks = c(0, 250, 500, 750, 1000, 1200, 1350)) +
   scale_x_continuous(limits = c(xmin, xmax),
                      breaks = seq(xmin, xmax, 2)) +
   geom_rect(aes(xmin = 25, xmax = 29, ymin = ymin, ymax = ymax),
-            fill = club_shade, alpha = 0.03) +
-  labs(title = paste0(club_name, " squad age make-up"),
-       subtitle = "Peak years",
-       caption = "Jessy Parker Humphreys | @jessyjph") +
-  annotate("text", x = 16, y = 1250, label = paste0("Average age: ", round(mean(Chelsea$Age), 0)),
-            size = 4, family = "open-sans", fontface = "plain",
-            hjust = 0, vjust = 0.5)
+            fill = club_shade, alpha = 0.01) +
+  labs(title = paste0(club_name, " squad profile 2020/21 season"),
+       subtitle = paste0("Average age: ", round(mean(Chelsea$Age), 0)),
+       caption = c("New signings in bold \n Peak years shaded",
+       "Jessy Parker Humphreys | @jessyjph \n Source: FBRef"))
 
             

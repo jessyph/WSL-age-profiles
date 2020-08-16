@@ -17,10 +17,11 @@ theme_AgePlot <- function() {
     panel.grid.minor = element_blank(), #removes grid lines
     panel.grid.major = element_line(colour= "light grey", size = 0.1),
     plot.background = element_blank(),
-    plot.caption = element_text(family = "merriweather"),
+    plot.caption = element_text(family = "merriweather", lineheight = 1,
+                                hjust = c(0, 1)),
     plot.margin = unit(c(2, 1, 1, 1), "cm"), #sets axis further in
     plot.title = element_text(family = "merriweather", vjust = 1),
-    plot.subtitle = element_text(family = "merriweather", hjust = 0.57, size = 9, face = "bold")
+    plot.subtitle = element_text(family = "merriweather", size = 10)
   )
   }
   
