@@ -2,8 +2,6 @@ require(ggplot2)
 require(ggrepel)
 require(showtext)
 require(dplyr)
-require(ggforce)
-require(concaveman)
 
 font_add_google(name = "Merriweather", family = "merriweather")
 font_add_google(name = "Open Sans", family = "open-sans")

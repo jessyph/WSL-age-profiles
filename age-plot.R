@@ -1,5 +1,4 @@
 require(ggplot2)
-require(ggrepel)
 require(showtext)
 
 font_add_google(name = "Merriweather", family = "merriweather")
