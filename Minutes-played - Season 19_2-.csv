@@ -1,0 +1,224 @@
+team,team.id,player,position,minutes.played,mp.percentage,age,new.signing
+Arsenal,001,Manuela Zinsberger,GK,1080,80.00,23,0
+Arsenal,001,Lydia Williams,GK,0,0.00,32,1
+Arsenal,001,Fran Stenson,GK,0,0.00,19,0
+Arsenal,001,Jennifer Beattie,DEF,822,60.89,28,0
+Arsenal,001,Leah Williamson,DEF,1290,95.56,22,0
+Arsenal,001,Steph Catley,DEF,0,0.00,26,1
+Arsenal,001,Leonie Maier,DEF,686,50.81,26,0
+Arsenal,001,Viktoria Schnaderbeck,DEF,876,64.89,28,0
+Arsenal,001,Danielle Van de Donk,MF,1277,94.59,27,0
+Arsenal,001,Jordan Nobbs,MF,1037,76.81,26,0
+Arsenal,001,Kim Little,MF,1055,78.15,29,0
+Arsenal,001,Lia Walti,MF,794,58.81,26,0
+Arsenal,001,Jill Roord,MF,848,62.81,22,0
+Arsenal,001,Noelle Maritz,MF,0,0.00,24,1
+Arsenal,001,Malin Gut,MF,0,0.00,19,1
+Arsenal,001,Vivianne Miedema,FWD,1226,90.81,23,0
+Arsenal,001,Katie McCabe,FWD,1047,77.56,23,0
+Arsenal,001,Lisa Evans,FWD,1266,93.78,27,0
+Arsenal,001,Caitlin Foord,FWD,0,0.00,25,0
+Arsenal,001,Beth Mead,FWD,976,72.30,24,0
+Aston Villa,002,Sian Rogers,GK,,,,0
+Aston Villa,002,Lisa Weiss,GK,0,,,1
+Aston Villa,002,Asmita Ale,DEF,,,,0
+Aston Villa,002,Ella Franklin-Fraiture,DEF,,,,0
+Aston Villa,002,Elisha N'Dow,DEF,,,,0
+Aston Villa,002,Natalie Haigh,DEF,,,,0
+Aston Villa,002,Marisa Ewers,DEF,,,,0
+Aston Villa,002,Anita Asante,DEF,0,,,1
+Aston Villa,002,Caroline Siems,DEF,0,,,1
+Aston Villa,002,Amy West,MF,,,,0
+Aston Villa,002,Emily Syme,MF,,,,0
+Aston Villa,002,Nadine Hanssen,MF,,,,0
+Aston Villa,002,Emma Follis,MF,,,,0
+Aston Villa,002,Chloe Arthur,MF,0,,,1
+Aston Villa,002,Freya Gregory,MF,,,,0
+Aston Villa,002,Ramona Petzelberger,MF,0,,,1
+Aston Villa,002,Jodie Hutton,FWD,,,,0
+Aston Villa,002,Sophie Haywood,FWD,,,,0
+Aston Villa,002,Shania Hayles,FWD,,,,0
+Aston Villa,002,Diana Silva,FWD,0,,,1
+Aston Villa,002,Stine Larsen,FWD,0,,,1
+Birmingham City,003,Hannah Hampton,GK,1170,100.00,18,0
+Birmingham City,003,Abbi Grant,MF,1069,91.37,23,0
+Birmingham City,003,Rebecca Holloway,DEF,974,83.25,23,0
+Birmingham City,003,Lucy Whipp,MF,947,80.94,23,0
+Birmingham City,003,Claudia Walker,FWD,899,76.84,23,0
+Birmingham City,003,Harriet Scott,DEF,793,67.78,26,0
+Birmingham City,003,Sarah Mayling,DEF,721,61.62,22,0
+Birmingham City,003,Lily Simkin,DEF,415,35.47,16,0
+Birmingham City,003,Connie Scofield,FWD,370,31.62,20,0
+Birmingham City,003,Georgia Brougham,DEF,180,15.38,23,0
+Birmingham City,003,Emma Rose Kelly,MF,114,9.74,22,0
+Birmingham City,003,Laura Brown,FWD,4,0.34,15,0
+Brighton,004,Aileen Whelan,MF,1423,98.82,27,0
+Brighton,004,Danielle Buet,MF,1340,93.06,30,0
+Brighton,004,Felicity Gibbons,DEF,1350,93.75,25,0
+Brighton,004,Megan Walsh,GK,1350,93.75,25,0
+Brighton,004,Kayleigh Green,FWD,1262,87.64,31,0
+Brighton,004,Danique Kerkdijk,DEF,1171,81.32,23,0
+Brighton,004,Victoria Williams,DEF,1001,69.51,29,0
+Brighton,004,Kirsty Barton,DEF,899,62.43,27,0
+Brighton,004,Emily Simpkins,MF,603,41.88,29,0
+Brighton,004,Maya Le Tissier,DEF,788,54.72,17,0
+Brighton,004,Megan Connolly,MF,601,41.74,22,0
+Brighton,004,Ellie Brazil,FWD,451,31.32,20,0
+Brighton,004,Katie Startup,GK,0,0.00,21,1
+Brighton,004,Katie Robinson,FWD,0,0.00,18,1
+Brighton,004,Nora Heroum,MF,0,0.00,26,1
+Brighton,004,Inessa Kaagman,MF,0,0.00,24,1
+Brighton,004,Lee Geum-Min,FWD,0,0.00,26,1
+Bristol City,005,Sophie Baggaley,GK,1260,100.00,22,0
+Bristol City,005,Yana Daniels,MF,1173,93.10,27,0
+Bristol City,005,Jasmine Matthews,DEF,1170,92.86,26,0
+Bristol City,005,Charlie Wellings,FWD,1156,91.75,21,0
+Bristol City,005,Meaghan Sargeant,DEF,1052,83.49,25,0
+Bristol City,005,Gemma Evans,DEF,1010,80.16,22,0
+Bristol City,005,Carla Humphrey,MF,686,54.44,22,0
+Bristol City,005,Ebony Salmon,FWD,746,59.21,18,0
+Bristol City,005,Georgia Wilson,MF,397,31.51,18,0
+Bristol City,005,Abigail Harrison,FWD,355,28.17,21,0
+Bristol City,005,Flo Allen,DEF,268,21.27,19,0
+Bristol City,005,Faye Bryson,DEF,206,16.35,23,0
+Bristol City,005,Chloe Logarzo,MF,90,7.14,24,0
+Bristol City,005,Vita van der Linden,MF,50,3.97,22,0
+Bristol City,005,Megan Wynne,FWD,123,9.76,26,0
+Bristol City,005,Maisy Collis,MF,34,2.70,20,0
+Bristol City,005,Kirsten Reilly,FWD,1,0.08,23,0
+Bristol City,005,Ella Mastrantonio,MF,0,0.00,28,1
+Bristol City,005,Aimee Palmer,MF,0,0.00,20,1
+Bristol City,005,Jemma Purfield,DEF,0,0.00,23,1
+Chelsea,006,Millie Bright,DF,1350,100.00,25,0
+Chelsea,006,Bethany England,FWD,1320,97.78,25,0
+Chelsea,006,Sophie Ingle,MF,1264,93.63,27,0
+Chelsea,006,Guro Reiten,FWD,1205,89.26,25,0
+Chelsea,006,Joanna Andersson,DEF,1271,94.15,26,0
+Chelsea,006,Magdalena Erikkson,DEF,1260,93.33,25,0
+Chelsea,006,Maren Mjelde,DEF,1258,93.19,29,0
+Chelsea,006,Ann-Katrin Berger,GK,1170,86.67,28,0
+Chelsea,006,Erin Cuthbert,FWD,1067,79.04,21,0
+Chelsea,006,Ji So-Yun,MF,999,74.00,28,0
+Chelsea,006,Drew Spence,MF,633,46.89,26,0
+Chelsea,006,Hannah Blundell,DEF,417,30.89,25,0
+Chelsea,006,Sam Kerr,FWD,294,21.78,25,0
+Chelsea,006,Fran Kirby,FWD,194,14.37,26,0
+Chelsea,006,Carly Telford,GK,180,13.33,32,0
+Chelsea,006,Jess Carter,DEF,173,12.81,21,0
+Chelsea,006,Maria Thorisdottir,DEF,76,5.63,26,0
+Chelsea,006,Emily Murphy,FWD,26,1.93,16,0
+Chelsea,006,Jamie-Lee Napier,MF,16,1.19,19,0
+Chelsea,006,Melanie Leupolz,MF,0,0.00,26,1
+Chelsea,006,Jessie Fleming,MF,0,0.00,22,1
+Chelsea,006,Niamh Charles,MF,0,0.00,21,1
+Chelsea,006,Charlotte Fleming,MF,0,0.00,18,0
+Everton,007,Danielle Turner,DEF,1260,100.00,28,0
+Everton,007,Lucy Graham,MF,1233,97.86,22,0
+Everton,007,Gabrielle George,DEF,1170,92.86,22,0
+Everton,007,Tinja-Riikka Korpela,GK,990,78.57,33,0
+Everton,007,Maeva Clemaron,MF,982,77.94,26,0
+Everton,007,Esme Morgan,DEF,920,73.02,18,0
+Everton,007,Megan Finnigan,DEF,900,71.43,21,0
+Everton,007,Simone Magill,FWD,895,71.03,24,0
+Everton,007,Kika van Es,DEF,635,50.40,27,0
+Everton,007,Molly Pike,MF,563,44.68,18,0
+Everton,007,Chantelle Boye-Hlorkah,FWD,616,48.89,24,0
+Everton,007,Abbey-Leigh Stringer,MF,505,40.08,24,0
+Everton,007,Sandy MacIver,GK,270,21.43,21,0
+Everton,007,Rikke Sevecke,DEF,0,0.00,24,1
+Everton,007,Poppy Pattinson,DEF,0,0.00,20,1
+Everton,007,Ingrid Moe Wold,DEF,0,0.00,30,1
+Everton,007,Nicoline Sorenson,FWD,0,0.00,23,1
+Everton,007,Valerie Gauvin,FWD,0,0.00,24,1
+Manchester City,008,Gemma Bonner,DEF,1440,100.00,28,0
+Manchester City,008,Steph Houghton,DEF,1440,100.00,31,0
+Manchester City,008,Caroline Weir,MF,1440,100.00,24,0
+Manchester City,008,Ellie Roebuck,GK,1439,99.93,19,0
+Manchester City,008,Jill Scott,MF,1287,89.38,32,0
+Manchester City,008,Keira Walsh,MF,1260,87.50,22,0
+Manchester City,008,Janine Beckie,FWD,1170,81.25,24,0
+Manchester City,008,Demi Stokes,DEF,1135,78.82,27,0
+Manchester City,008,Lauren Hemp,MF,1134,78.75,18,0
+Manchester City,008,Ellen White,FWD,857,59.51,30,0
+Manchester City,008,Georgia Stanway,FWD,832,57.78,20,0
+Manchester City,008,Aoife Mannion,DEF,356,24.72,23,0
+Manchester City,008,Megan Campbell,DEF,335,23.26,26,0
+Manchester City,008,Laura Coombs,MF,104,7.22,28,0
+Manchester City,008,Karen Bardsley,GK,0,0.00,35,0
+Manchester City,008,Jess Park,FWD,17,1.18,17,0
+Manchester City,008,Chloe Kelly,FWD,0,0.00,22,1
+Manchester City,008,Sam Mewis,MF,0,0.00,27,1
+Manchester United,009,Mary Earps,GK,1260,100.00,26,0
+Manchester United,009,Millie Turner,DEF,1249,99.13,23,0
+Manchester United,009,Hayley Ladd,MF,1229,97.54,25,0
+Manchester United,009,Katie Zelem,MF,1147,91.03,23,0
+Manchester United,009,Leah Galton,FWD,1028,81.59,25,0
+Manchester United,009,Jackie Groenen,MF,1024,81.27,24,0
+Manchester United,009,Amy Turner,DEF,1070,84.92,28,0
+Manchester United,009,Abbie McManus,DEF,990,78.57,26,0
+Manchester United,009,Martha Harris,DEF,835,66.27,24,0
+Manchester United,009,Lauren James,FWD,796,63.17,17,0
+Manchester United,009,Jess Sigsworth,FWD,720,57.14,24,0
+Manchester United,009,Kirsty Smith,DEF,632,50.16,25,0
+Manchester United,009,Jane Ross,FWD,570,45.24,29,0
+Manchester United,009,Kirsty Hanson,FWD,498,39.52,21,0
+Manchester United,009,Ella Toone,MF,526,41.75,19,0
+Manchester United,009,Lotta Okvist,DEF,190,15.08,22,0
+Manchester United,009,Lucy Staniforth,MF,0,0.00,27,1
+Manchester United,009,Ona Batlle,DEF,0,0.00,21,1
+Manchester United,009,Ivana Fuso,FWD,0,0.00,19,1
+Reading,010,Fara Williams,MF,1214,96.35,35,0
+Reading,010,Angharad James,MF,1133,89.92,25,0
+Reading,010,Brooke Chaplen,FWD,1003,79.60,30,0
+Reading,010,Amalie Eikeland,FWD,1097,87.06,23,0
+Reading,010,Kristine Leine,DEF,990,78.57,23,0
+Reading,010,Rachel Rowe,DEF,946,75.08,26,0
+Reading,010,Grace Moloney,GK,827,65.63,26,0
+Reading,010,Natasha Harding,FWD,570,45.24,30,0
+Reading,010,Molly Bartrip,DEF,245,19.44,23,0
+Reading,010,Rakel Honnudottir,FWD,49,3.89,30,0
+Reading,010,Deanna Cooper,DEF,0,0.00,27,1
+Reading,010,Danielle Carter,FWD,0,0.00,27,1
+Reading,010,Emma Mitchell,DEF,0,0.00,27,1
+Reading,010,Erin Nayler,GK,0,0.00,28,1
+Tottenham,011,Hannah Godfrey,DEF,1260,100.00,22,0
+Tottenham,011,Ria Percival,MF,1260,100.00,29,0
+Tottenham,011,Becky Spencer,GK,1207,95.79,28,0
+Tottenham,011,Anna Filbey,DEF,1152,91.43,19,0
+Tottenham,011,Rianna Dean,FWD,1130,89.68,20,0
+Tottenham,011,Josephine Green,MF,1112,88.25,26,0
+Tottenham,011,Ashleigh Neville,DEF,1092,86.67,26,0
+Tottenham,011,Kit Graham,FWD,1077,85.48,23,0
+Tottenham,011,Chloe Peplow,MF,820,65.08,20,0
+Tottenham,011,Siri Worm,DEF,728,57.78,27,0
+Tottenham,011,Gemma Davison,MF,876,69.52,32,0
+Tottenham,011,Rosella Ayane,FWD,574,45.56,23,0
+Tottenham,011,Lucy Quinn,MF,533,42.30,26,0
+Tottenham,011,Angela Addison,FWD,202,16.03,19,0
+Tottenham,011,Lucia Leon,DEF,148,11.75,21,0
+Tottenham,011,Vencislav Vasilev,GK,143,11.35,31,0
+Tottenham,011,Kerys Harrop,DEF,0,0.00,29,1
+Tottenham,011,Rachel Williams,FWD,0,0.00,32,1
+Tottenham,011,Aurora Mikalsen,GK,0,0.00,24,1
+West Ham,012,Gilly Flaherty,DEF,1260,100.00,27,0
+West Ham,012,Laura Vetterlein,DEF,1139,90.40,27,0
+West Ham,012,Kenza Dali,MF,1169,92.78,28,0
+West Ham,012,Alisha Lehmann,FWD,966,76.67,20,0
+West Ham,012,Kate Longhurst,MF,962,76.35,30,0
+West Ham,012,Cecilia Kvamme,DEF,975,77.38,23,0
+West Ham,012,Courtney Brosnan,GK,900,71.43,23,0
+West Ham,012,Martha Thomas,FWD,886,70.32,23,0
+West Ham,012,Adriana Leon,FWD,641,50.87,26,0
+West Ham,012,Leanne Kiernan,FWD,522,41.43,20,0
+West Ham,012,Cho So-hyun,MF,547,43.41,31,0
+West Ham,012,Jacynta Galabadaarachchi,FWD,490,38.89,18,0
+West Ham,012,Grace Fisk,DEF,422,33.49,21,0
+West Ham,012,Brooke Hendrix,DEF,403,31.98,26,0
+West Ham,012,Erin Simon,DEF,133,10.56,24,0
+West Ham,012,Filippa Wallen,FWD,52,4.13,20,0
+West Ham,012,Mackenzie Arnold,GK,0,0.00,26,1
+West Ham,012,Maz Pacheco,DEF,0,0.00,21,1
+West Ham,012,Katerina Svitkova,MF,0,0.00,24,1
+West Ham,012,Hawa Cissoko,DEF,0,0.00,23,1
+West Ham,012,Nor Mustafa,FWD,0,0.00,18,1
+West Ham,012,Ruby Grant,MF,0,0.00,18,1
