@@ -20,6 +20,8 @@ birmingham <- Minutes.played.1920 %>% filter(team.id=="3")
 
 birmingham <- birmingham %>% mutate_at(vars(mp.percentage), funs(round(., 0)))
 
+birmingham <- birmingham[-c(10),]
+
 ggplot(data = birmingham, aes(x = age, y = mp.percentage)) + 
   xlim(c(xmin, xmax)) + ylim(c(ymin, ymax)) +
   geom_point(colour = club_colour) +
