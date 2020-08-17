@@ -12,22 +12,22 @@ ymax <- 105 #max number of minutes
 xmin <- 15 #lowest player age
 xmax <- 35 #highest player age
 
-club_colour = "#0E44D3"
+club_colour = "#7A263A"
 club_shade = "#B2B2AC"
-club_name = "Chelsea"
+club_name = "West Ham"
 
-chelsea <- Minutes.played.1920 %>% filter(team.id=="6")
+west.ham <- Minutes.played.1920 %>% filter(team.id=="12")
 
-chelsea <- chelsea %>% mutate_at(vars(mp.percentage), funs(round(., 0)))
+west.ham <- west.ham %>% mutate_at(vars(mp.percentage), funs(round(., 0)))
 
-ggplot(data = chelsea, aes(x = age, y = mp.percentage)) + 
+ggplot(data = west.ham, aes(x = age, y = mp.percentage)) + 
   xlim(c(xmin, xmax)) + ylim(c(ymin, ymax)) +
   geom_point(colour = club_colour) +
-  geom_text_repel(data = chelsea %>% filter(new.signing=="0"),
+  geom_text_repel(data = west.ham %>% filter(new.signing=="0"),
                   aes(label = player),
                   size = 3, family = "open-sans",
                   point.padding = 0.2) +
-  geom_text_repel(data = chelsea %>%
+  geom_text_repel(data = west.ham %>%
                     filter(new.signing=="1"),
                   aes(label = player),
                   size = 3, family = "open-sans", fontface = "bold",
@@ -42,7 +42,7 @@ ggplot(data = chelsea, aes(x = age, y = mp.percentage)) +
   geom_rect(aes(xmin = 25, xmax = 29, ymin = ymin, ymax = ymax),
             fill = club_shade, alpha = 0.01) +
   labs(title = paste0(club_name, " squad profile 2020/21 season"),
-       subtitle = paste0("Average age: ", round(mean(chelsea$age), 0)),
+       subtitle = paste0("Average age: ", round(mean(west.ham$age), 0)),
        caption = c("New signings in bold \n Peak years shaded",
                    "Jessy Parker Humphreys | @jessyjph \n Source: FBRef"))
 
