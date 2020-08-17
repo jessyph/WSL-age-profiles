@@ -13,7 +13,7 @@ xmin <- 15 #lowest player age
 xmax <- 35 #highest player age
 
 club_colour = "#FA1304"
-club_shade = "#F6FA04"
+club_shade = "#B2B2AC"
 club_name = "Arsenal"
 
 arsenal <- Minutes.played.1920 %>% filter(team.id=="1")
